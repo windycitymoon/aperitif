@@ -1,8 +1,8 @@
 module.exports = {
-  parser: "vue-eslint-parser",
+  parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaVersion: 2019,
-    sourceType: "module",
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true
     }
@@ -11,10 +11,9 @@ module.exports = {
     browser: true,
     es6: true
   },
-  plugins: ["vue", "gridsome"],
+  plugins: ['vue', 'gridsome'],
   extends: [
-    "xo",
-    "plugin:vue/recommended",
-    "plugin:gridsome/recommended"
+    'plugin:vue/recommended',
+    'plugin:gridsome/recommended'
   ]
 };

@@ -10,13 +10,12 @@
   },
   "devDependencies": {
     "eslint": "^6.5.1",
-    "eslint-config-xo": "^0.27.1",
-    "eslint-config-xo-vue": "^3.0.0",
     "eslint-plugin-gridsome": "^1.3.2",
     "eslint-plugin-vue": "^5.2.3",
     "gridsome-plugin-base-components": "0.0.9",
     "gridsome-plugin-svg": "0.0.10",
     "gridsome-plugin-tailwindcss": "^2.2.26",
+    "stylelint-config-standard": "^19.0.0",
     "tailwindcss-plugin-fancy": "0.0.12",
     "vue-eslint-parser": "^6.0.4"
   }
