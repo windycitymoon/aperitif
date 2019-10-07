@@ -13,8 +13,6 @@ module.exports = {
   },
   plugins: ['vue', 'gridsome'],
   extends: [
-    'xo/esnext',
-    // 'xo-vue',
     'plugin:vue/recommended',
     'plugin:gridsome/recommended'
   ]
