@@ -1,5 +1,4 @@
 module.exports = {
-  parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',
@@ -9,10 +8,13 @@ module.exports = {
   },
   env: {
     browser: true,
-    es6: true
+    es6: true,
+    node: true
   },
   plugins: ['vue', 'gridsome'],
   extends: [
+    'xo/esnext',
+    // 'xo-vue',
     'plugin:vue/recommended',
     'plugin:gridsome/recommended'
   ]
