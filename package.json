@@ -1,15 +1,18 @@
 {
-  "private": true,
+  "author": "Brandon Pittman",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "build": "gridsome build"
   },
   "dependencies": {
-    "gridsome": "^0.7.7"
+    "gridsome": "latest"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
+    "eslint-config-xo": "^0.27.2",
     "eslint-plugin-gridsome": "^1.3.2",
     "eslint-plugin-vue": "^5.2.3",
     "gridsome-plugin-base-components": "0.0.9",
@@ -17,6 +20,22 @@
     "gridsome-plugin-tailwindcss": "^2.2.26",
     "stylelint": "^11.0.0",
     "stylelint-config-standard": "^19.0.0",
-    "tailwindcss-plugin-fancy": "0.0.12"
-  }
+    "tailwindcss-plugin-fancy": "0.0.12",
+    "xo": "^0.25.3"
+  },
+  "name": "gridsome-starter-default",
+  "description": "A better starter package for Gridsome that includes Tailwind CSS.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonpittman/gridsome-starter-default.git"
+  },
+  "keywords": [
+    "gridsome",
+    "vue"
+  ],
+  "bugs": {
+    "url": "https://github.com/brandonpittman/gridsome-starter-default/issues"
+  },
+  "homepage": "https://github.com/brandonpittman/gridsome-starter-default#readme"
 }
