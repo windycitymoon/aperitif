@@ -5,7 +5,8 @@
   "scripts": {
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "build": "gridsome build"
+    "build": "gridsome build",
+    "lint": "eslint . --ext vue,js,jsx,ts,tsx"
   },
   "dependencies": {
     "gridsome": "latest",
