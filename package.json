@@ -12,14 +12,19 @@
     "gridsome-plugin-base-components": "0.0.12"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
-    "eslint-config-xo": "^0.27.2",
     "eslint-plugin-gridsome": "^1.4.0",
-    "eslint-plugin-vue": "^6.0.1",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.1.1",
     "gridsome-plugin-svg": "0.0.10",
-    "gridsome-plugin-tailwindcss": "^2.2.27",
-    "tailwindcss-plugin-fancy": "0.0.20"
+    "gridsome-plugin-tailwindcss": "^2.2.30",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.1",
+    "tailwindcss-plugin-fancy": "0.1.3"
   },
   "name": "gridsome-starter-default",
   "description": "A better starter package for Gridsome that includes Tailwind CSS.",

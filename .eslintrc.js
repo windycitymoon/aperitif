@@ -5,8 +5,7 @@ module.exports = {
     "node": true
   },
   "extends": [
-    "xo",
-    "xo/esnext",
+    "standard",
     "plugin:gridsome/recommended",
     "plugin:vue/recommended"
   ],
