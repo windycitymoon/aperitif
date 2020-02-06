@@ -22,10 +22,10 @@
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^6.1.2",
     "gridsome-plugin-svg": "0.0.10",
-    "gridsome-plugin-tailwindcss": "^2.2.33",
+    "gridsome-plugin-tailwindcss": "^2.2.34",
     "snazzy": "^8.0.0",
     "standard": "^14.3.1",
-    "tailwindcss-plugin-fancy": "1.0.7"
+    "tailwindcss-plugin-fancy": "1.0.8"
   },
   "name": "gridsome-starter-default",
   "description": "A better starter package for Gridsome that includes Tailwind CSS.",
