@@ -6,6 +6,17 @@
 
 module.exports = {
   siteName: 'Gridsome',
+  settings: {
+    // Place site-wide settings here and query them from the GraphQL layer's metadata {settings} key.
+    likes: {
+      language: 'JavaScript',
+      frameworks: [
+        'Vue',
+        'Gridsome',
+        'Tailwind'
+      ]
+    }
+  },
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss'
